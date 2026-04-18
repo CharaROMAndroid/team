@@ -11,3 +11,5 @@ I don't use XDA at all, especially since I lost credentials to my account. But e
 As for supporting my work, just using it and spreading the word is enough. I do this in my free time as hobby work, and I don't deserve money for things I do just for fun and self contentment.
 
 I don't really know what else to put here, but you can find some extra information about me like my Windows Insider badges, more things I work on and my device specs on [my GitHub profile](https://github.com/kurtbahartr).
+
+\* Pisi Linux is a Turkish distribution born from the ashes of Pardus 2011. Read more on [the Wikipedia page dedicated to the distro (Turkish)](https://tr.wikipedia.org/wiki/Pisi_Linux).
