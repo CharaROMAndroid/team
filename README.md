@@ -1,5 +1,17 @@
 # Team Repository Overview
 
+## Quick Links
+
+Meet the people behind **CharaROM**:
+
+* [🔪🍫 **Garry Strait (Chara)**](https://github.com/CharaROMAndroid/team/blob/main/garry-chara.md)
+* 🐩🐈🛌 **Nora / eepymeowers** — *(coming soon)*
+* [🌷 **Bahar / Spring**](https://github.com/CharaROMAndroid/team/blob/main/bahar-linda.md)
+* 💻 **Bashh** — *(coming soon)*
+* 🔥 **JPB** — *(coming soon)*
+
+---
+
 ## What This Repository Is
 
 This repository exists as a central introduction to the people behind **CharaROM**.
@@ -8,18 +20,18 @@ Each markdown file represents a team member, their background, and the projects 
 
 Think of it as a mix between:
 
-* a team roster
-* a portfolio collection
-* and a bit of organized chaos
+* a team roster  
+* a portfolio collection  
+* and a bit of organized chaos  
 
 ---
 
 ## What You’ll Find Here
 
-* Individual developer profiles (like [this one](https://github.com/CharaROMAndroid/team/blob/main/garry-chara.md))
-* Personal projects and contributions
-* Overlapping work across different parts of the ecosystem
-* The occasional “wait, they built *that* too?” moment
+* Individual developer profiles (like [this one](https://github.com/CharaROMAndroid/team/blob/main/garry-chara.md))  
+* Personal projects and contributions  
+* Overlapping work across different parts of the ecosystem  
+* The occasional “wait, they built *that* too?” moment  
 
 This isn’t meant to be overly corporate or sanitized.
 
@@ -33,9 +45,9 @@ CharaROM isn’t built by a faceless group.
 
 It’s built by individuals who:
 
-* experiment freely
-* learn by doing (and breaking things)
-* and aren’t afraid to take unconventional approaches
+* experiment freely  
+* learn by doing (and breaking things)  
+* and aren’t afraid to take unconventional approaches  
 
 That same philosophy carries into this repository.
 
