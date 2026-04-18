@@ -1,4 +1,4 @@
-# Garry Strait (Chara)
+# Garry Strait (Chara) [any/all, pref. they/them]
 
 ## Who I Am
 
