@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nora - CharaROM Team</title>
+    <style>
+:root {
+    --wine-red: #7a1022;
+    --wine-bright: #d94a62;
+    --wine-dark: #4a0a15;
+    --bg-dark: #09090d;
+    --bg-card: #111116;
+    --text-primary: #e8e6e3;
+    --text-secondary: #a8a5a0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+    background: var(--bg-dark);
+    background-image: radial-gradient(ellipse at top, #1a0a10 0%, var(--bg-dark) 60%);
+    color: var(--text-primary);
+    line-height: 1.6;
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+header {
+    text-align: center;
+    padding: 3rem 0 2rem;
+    border-bottom: 1px solid var(--wine-dark);
+    margin-bottom: 2rem;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    color: var(--wine-bright);
+    margin-bottom: 0.5rem;
+}
+
+header p {
+    color: var(--text-secondary);
+}
+
+.back-link {
+    display: inline-block;
+    color: var(--wine-bright);
+    text-decoration: none;
+    margin-bottom: 1.5rem;
+    font-size: 0.9rem;
+}
+
+.back-link:hover {
+    text-decoration: underline;
+}
+
+.team-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 1.5rem;
+    margin: 2rem 0;
+}
+
+.team-card {
+    background: var(--bg-card);
+    border: 1px solid var(--wine-dark);
+    border-radius: 8px;
+    padding: 1.5rem;
+    transition: transform 0.2s, border-color 0.2s;
+}
+
+.team-card:hover {
+    transform: translateY(-3px);
+    border-color: var(--wine-bright);
+}
+
+.team-card a {
+    color: var(--text-primary);
+    text-decoration: none;
+    display: block;
+}
+
+.team-card h3 {
+    color: var(--wine-bright);
+    margin-bottom: 0.5rem;
+}
+
+.team-card p {
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+}
+
+.content {
+    background: var(--bg-card);
+    border: 1px solid var(--wine-dark);
+    border-radius: 8px;
+    padding: 2rem;
+}
+
+.content h1 {
+    color: var(--wine-bright);
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid var(--wine-dark);
+}
+
+.content h2 {
+    color: var(--wine-bright);
+    font-size: 1.4rem;
+    margin: 1.5rem 0 0.75rem;
+}
+
+.content h3 {
+    color: var(--text-primary);
+    font-size: 1.2rem;
+    margin: 1.25rem 0 0.5rem;
+}
+
+.content h4 {
+    color: var(--text-secondary);
+    font-size: 1rem;
+    margin: 1rem 0 0.5rem;
+}
+
+.content p {
+    margin-bottom: 1rem;
+}
+
+.content a {
+    color: var(--wine-bright);
+    text-decoration: none;
+}
+
+.content a:hover {
+    text-decoration: underline;
+}
+
+.content ul, .content ol {
+    margin: 1rem 0 1rem 1.5rem;
+}
+
+.content li {
+    margin-bottom: 0.5rem;
+}
+
+.content blockquote {
+    border-left: 3px solid var(--wine-bright);
+    padding-left: 1rem;
+    margin: 1rem 0;
+    color: var(--text-secondary);
+    font-style: italic;
+}
+
+.content hr {
+    border: none;
+    border-top: 1px solid var(--wine-dark);
+    margin: 2rem 0;
+}
+
+.content code {
+    background: rgba(122, 16, 34, 0.2);
+    padding: 0.2rem 0.4rem;
+    border-radius: 3px;
+    font-family: 'Monaco', 'Consolas', monospace;
+    font-size: 0.9em;
+}
+
+.content pre {
+    background: rgba(0, 0, 0, 0.3);
+    padding: 1rem;
+    border-radius: 5px;
+    overflow-x: auto;
+    margin: 1rem 0;
+}
+
+.content pre code {
+    background: none;
+    padding: 0;
+}
+
+.content strong {
+    color: var(--text-primary);
+}
+
+.content em {
+    color: var(--text-secondary);
+}
+
+footer {
+    text-align: center;
+    padding: 2rem;
+    color: var(--text-secondary);
+    font-size: 0.85rem;
+    border-top: 1px solid var(--wine-dark);
+    margin-top: 2rem;
+}
+
+footer a {
+    color: var(--wine-bright);
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+</style>
+</head>
+<body>
+    <div class="container">
+        <a href="index.html" class="back-link">← Back to Team</a>
+        <div class="content">
+            <h1>Nora (eepymeowers) [Pronouns: it]</h1>
+<p>I'm tired and don't really want to write a new bio right now so here's my Telegram one, but modified a bit:</p>
+<hr />
+<h3>Basic info about me:</h3>
+<ul>
+<li>Name: Nora Yurichka Lovehart</li>
+<li>Identities: trans, ΘΔ&amp;⚥⚢, finsexual grayace sapphic</li>
+<li>autistic, anarchomarxist, anti-gen AI* transhumanist (more blurbs i could put here but this is not my full bio)</li>
+</ul>
+<hr />
+<h3>Location: The Wired</h3>
+<p>crDroid maintainer for Sony Xperia 5 V (pdx237), OnePlus 7 (guacamoleb), and Sony Xperia XZ2 Premium (aurora)<br />
+- XDA: https://xdaforums.com/m/eepymeowers.10724523/<br />
+- Telegram: t.me/eepymeowers<br />
+- Signal: DM on Telegram if you need it<br />
+- Discord: DM on Telegram if you need it<br />
+- Website: n/a atm<br />
+- Phone list: To be made<br />
+- Laptop list: To be made<br />
+- PC list: To be made<br />
+- Languages I can speak currently: English (native), 中文 (not well - 但是我的中文不太好)</p>
+<hr />
+<h3>Favourites:</h3>
+<ul>
+<li>Car: 1974 Datsun 100A/Nissan Cherry</li>
+<li>Language: Finnish (still learning it xD)</li>
+<li>Anime: Any in the Puella Magi Madoka Magica series</li>
+<li>Manga: Still any in the Puella Magi and related series</li>
+<li>Album: Hard to say, I have multiple favourites for this</li>
+<li>Artists: Jane Remover, Machine Girl, femtanyl + more</li>
+<li>Game: My Summer Car, GTA IV</li>
+<li>Colour: Lilac</li>
+<li>Phone: Sony Xperia 5 V</li>
+<li>OS: Debian unstable with KDE Plasma, Gentoo</li>
+</ul>
+<hr />
+<h3>Main Devices:</h3>
+<ul>
+<li>Phone: Sony Xperia 5 V 256GB XQ-DE44, Black, with 512GB microSD and Spigen case running my crDroid 12 build for pdx237, unrooted, carrier is Google Fi</li>
+<li>Laptop: Lenovo ThinkPad T470, i5-7300U, 32GB RAM, 500GB Samsung 860 EVO, 14" 1080p display, backlit keyboard + FP reader, NixOS [Secondary laptop: Late 2020 Apple MacBook Air (M1, 8GB RAM, 512GB storage), macOS (latest beta)]</li>
+<li>PC: AMD Ryzen 7 7700X, 64GB DDR5, 2x 1TB NVMe Gen4 SSDs (Samsung 980 PRO with Heatsink, Crucial T500), 2x 2TB WD Red HDDs, XFX SWFT210 AMD Radeon RX 6600 8GB, MSI Pro B650-P WIFI, running Debian unstable, all housed in a white Corsair 4000D Airflow, and the rest of my PC setup is 2x Dell U2518D 1440p60 25" monitors, E-YOOSOO Z-99 mechanical keyboard, Logi M575 trackball, Logi B910 webcam, and Razer Blackshark V2 headset </li>
+<li>E-reader: Kobo Libra H₂O 8GB</li>
+<li>Tablet/main drawing tablet: iPad Pro 9.7" 1st Gen 32GB + Apple Pencil 1st Gen, running latest available for it iOS</li>
+</ul>
+<hr />
+<h3>Legal disclaimer: <a href="t.me/NoneResponsibility">t.me/NoneResponsibility</a> (<a href="https://telegra.ph/Disclaimer-11-25-17">https://telegra.ph/Disclaimer-11-25-17</a>)</h3>
+<hr />
+<p><a href="https://t.me/nohello">@nohello</a> | <a href="https://t.me/nohindi">@nohindi</a> (telegram channels for something)</p>
+<p>Unless otherwise noted, all of my work is CC-BY-NC-SA.</p>
+        </div>
+        <footer>
+            <p>CharaROM Team &middot; <a href="https://chararom.xyz">chararom.xyz</a> &middot; <a href="https://blog.chararom.xyz">Blog</a></p>
+        </footer>
+    </div>
+</body>
+</html>

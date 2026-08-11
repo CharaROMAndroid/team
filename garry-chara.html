@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chara - CharaROM Team</title>
+    <style>
+:root {
+    --wine-red: #7a1022;
+    --wine-bright: #d94a62;
+    --wine-dark: #4a0a15;
+    --bg-dark: #09090d;
+    --bg-card: #111116;
+    --text-primary: #e8e6e3;
+    --text-secondary: #a8a5a0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+    background: var(--bg-dark);
+    background-image: radial-gradient(ellipse at top, #1a0a10 0%, var(--bg-dark) 60%);
+    color: var(--text-primary);
+    line-height: 1.6;
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+header {
+    text-align: center;
+    padding: 3rem 0 2rem;
+    border-bottom: 1px solid var(--wine-dark);
+    margin-bottom: 2rem;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    color: var(--wine-bright);
+    margin-bottom: 0.5rem;
+}
+
+header p {
+    color: var(--text-secondary);
+}
+
+.back-link {
+    display: inline-block;
+    color: var(--wine-bright);
+    text-decoration: none;
+    margin-bottom: 1.5rem;
+    font-size: 0.9rem;
+}
+
+.back-link:hover {
+    text-decoration: underline;
+}
+
+.team-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 1.5rem;
+    margin: 2rem 0;
+}
+
+.team-card {
+    background: var(--bg-card);
+    border: 1px solid var(--wine-dark);
+    border-radius: 8px;
+    padding: 1.5rem;
+    transition: transform 0.2s, border-color 0.2s;
+}
+
+.team-card:hover {
+    transform: translateY(-3px);
+    border-color: var(--wine-bright);
+}
+
+.team-card a {
+    color: var(--text-primary);
+    text-decoration: none;
+    display: block;
+}
+
+.team-card h3 {
+    color: var(--wine-bright);
+    margin-bottom: 0.5rem;
+}
+
+.team-card p {
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+}
+
+.content {
+    background: var(--bg-card);
+    border: 1px solid var(--wine-dark);
+    border-radius: 8px;
+    padding: 2rem;
+}
+
+.content h1 {
+    color: var(--wine-bright);
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid var(--wine-dark);
+}
+
+.content h2 {
+    color: var(--wine-bright);
+    font-size: 1.4rem;
+    margin: 1.5rem 0 0.75rem;
+}
+
+.content h3 {
+    color: var(--text-primary);
+    font-size: 1.2rem;
+    margin: 1.25rem 0 0.5rem;
+}
+
+.content h4 {
+    color: var(--text-secondary);
+    font-size: 1rem;
+    margin: 1rem 0 0.5rem;
+}
+
+.content p {
+    margin-bottom: 1rem;
+}
+
+.content a {
+    color: var(--wine-bright);
+    text-decoration: none;
+}
+
+.content a:hover {
+    text-decoration: underline;
+}
+
+.content ul, .content ol {
+    margin: 1rem 0 1rem 1.5rem;
+}
+
+.content li {
+    margin-bottom: 0.5rem;
+}
+
+.content blockquote {
+    border-left: 3px solid var(--wine-bright);
+    padding-left: 1rem;
+    margin: 1rem 0;
+    color: var(--text-secondary);
+    font-style: italic;
+}
+
+.content hr {
+    border: none;
+    border-top: 1px solid var(--wine-dark);
+    margin: 2rem 0;
+}
+
+.content code {
+    background: rgba(122, 16, 34, 0.2);
+    padding: 0.2rem 0.4rem;
+    border-radius: 3px;
+    font-family: 'Monaco', 'Consolas', monospace;
+    font-size: 0.9em;
+}
+
+.content pre {
+    background: rgba(0, 0, 0, 0.3);
+    padding: 1rem;
+    border-radius: 5px;
+    overflow-x: auto;
+    margin: 1rem 0;
+}
+
+.content pre code {
+    background: none;
+    padding: 0;
+}
+
+.content strong {
+    color: var(--text-primary);
+}
+
+.content em {
+    color: var(--text-secondary);
+}
+
+footer {
+    text-align: center;
+    padding: 2rem;
+    color: var(--text-secondary);
+    font-size: 0.85rem;
+    border-top: 1px solid var(--wine-dark);
+    margin-top: 2rem;
+}
+
+footer a {
+    color: var(--wine-bright);
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+</style>
+</head>
+<body>
+    <div class="container">
+        <a href="index.html" class="back-link">← Back to Team</a>
+        <div class="content">
+            <h1>🍫 - <a href="https://github.com/GarryStraitYT">Garry Strait (Chara)</a> [Pronouns: any/all, pref. they/them]</h1>
+<h2>Who I Am</h2>
+<p>I’m Garry Strait, a nonbinary developer (I also go by Chara) who thrives somewhere between structured engineering and controlled chaos.</p>
+<p>I build things because I <em>can</em>, refine them because I <em>care</em>, and occasionally break them just to understand them better. I’m deeply hands-on, very systems-oriented, and I tend to learn by diving headfirst into problems most people would rather avoid.</p>
+<p>I’m not interested in just using technology; I want to understand it, bend it, and sometimes rebuild it entirely in my own image.</p>
+<p>You can find me on XDA as <strong>BunnyPad-Dev</strong>, or in my Telegram chat: <a href="https://t.me/bunnypaddev">https://t.me/bunnypaddev</a></p>
+<hr />
+<h2>Core Traits</h2>
+<ul>
+<li><strong>Practical over theoretical</strong> - If it works and I understand why, it’s good.</li>
+<li><strong>Detail-obsessed when it matters</strong> - Especially with systems, builds, and low-level behavior.</li>
+<li><strong>Comfortable in chaos</strong> - Whether it’s debugging a broken build environment or designing something unconventional.</li>
+<li><strong>Independent thinker</strong> - I don’t follow norms unless they make sense.</li>
+<li><strong>Builder mindset</strong> - I like looking at something and thinking: <em>“yeah, I could make that better.”</em></li>
+</ul>
+<hr />
+<h2>Notable Projects</h2>
+<h3>CharaROM</h3>
+<p>A custom Android ROM that blends technical stability with a very intentional design philosophy: <strong>“Uniquely Chaotic.”</strong></p>
+<p>CharaROM isn’t just another AOSP derivative, it’s:</p>
+<ul>
+<li>A fully functional Android distribution</li>
+<li>A platform for experimentation</li>
+<li>A reflection of personal identity and creative direction</li>
+</ul>
+<h4>Highlights:</h4>
+<ul>
+<li>Custom features beyond standard ROM expectations</li>
+<li>Unique branding and identity (not just a reskin)</li>
+<li>Experimental UI elements, including unconventional font integrations</li>
+<li>Clean build pipeline and OTA packaging system</li>
+</ul>
+<p>It started as a way to avoid dealing with certain people.<br />
+It became something I’m genuinely proud of.</p>
+<hr />
+<h3>BunnyPad</h3>
+<p>A Python-based notepad application focused on simplicity and reliability.</p>
+<p>Instead of trying to be a full IDE, BunnyPad is designed around:</p>
+<ul>
+<li>Ease of use for non-technical users</li>
+<li>Stability over feature bloat</li>
+<li>Clean, predictable behavior</li>
+</ul>
+<p>Ironically, despite its simplicity, it ended up being recognized in places I never expected, like Android modding communities.</p>
+<hr />
+<h3>Kernel / Android Development Work</h3>
+<ul>
+<li>Building and modifying Android kernels (including NetHunter-related work)</li>
+<li>Debugging low-level issues (boot loops, kernel panics, linker failures)</li>
+<li>Working with Soong, Ninja, and the Android build system</li>
+<li>Handling real-world device quirks (hardware faults, vendor inconsistencies)</li>
+</ul>
+<p>I don’t just build Android, I <em>fight</em> it sometimes.</p>
+<hr />
+<h2>Technical Focus Areas</h2>
+<ul>
+<li>Android ROM development</li>
+<li>Linux kernel modification</li>
+<li>System-level debugging</li>
+<li>Python scripting and tooling</li>
+<li>Build systems (Soong, Ninja, Make)</li>
+<li>Reverse engineering behavior through logs and failures</li>
+</ul>
+<hr />
+<h2>Philosophy</h2>
+<p>Technology should be:</p>
+<ul>
+<li><strong>Understandable</strong></li>
+<li><strong>Modifiable</strong></li>
+<li><strong>Yours</strong></li>
+</ul>
+<p>If something is locked down, I want to open it.<br />
+If something is broken, I want to fix it.<br />
+If something is boring, I want to make it interesting.</p>
+<hr />
+<h2>Closing Thoughts</h2>
+<p>I don’t aim to be conventional. I aim to be effective.</p>
+<p>Whether it’s building a ROM, fixing hardware, or writing tools, I want to walk away from it thinking:</p>
+<blockquote>
+<p>“Yeah. I built that.”</p>
+</blockquote>
+<p>And mean it.</p>
+<hr />
+<h2>Support / Donations</h2>
+<p>If you like what I build and want to support further development (or just feel like throwing a few bucks my way), here are a couple options:</p>
+<ul>
+<li>PayPal: <a href="https://www.paypal.com/paypalme/bunnypad">https://www.paypal.com/paypalme/bunnypad</a></li>
+<li>Throne: <a href="https://throne.com/bunnypad">https://throne.com/bunnypad</a></li>
+<li>Buy Me a ~~Coffee~~ Chocolate: <a href="https://buymeacoffee.com/bunnypad">https://buymeacoffee.com/bunnypad</a></li>
+</ul>
+<p>No pressure, everything I make exists because I enjoy building it. But support is always appreciated and helps keep things moving.</p>
+        </div>
+        <footer>
+            <p>CharaROM Team &middot; <a href="https://chararom.xyz">chararom.xyz</a> &middot; <a href="https://blog.chararom.xyz">Blog</a></p>
+        </footer>
+    </div>
+</body>
+</html>

@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CharaROM Team</title>
+    <style>
+:root {
+    --wine-red: #7a1022;
+    --wine-bright: #d94a62;
+    --wine-dark: #4a0a15;
+    --bg-dark: #09090d;
+    --bg-card: #111116;
+    --text-primary: #e8e6e3;
+    --text-secondary: #a8a5a0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+    background: var(--bg-dark);
+    background-image: radial-gradient(ellipse at top, #1a0a10 0%, var(--bg-dark) 60%);
+    color: var(--text-primary);
+    line-height: 1.6;
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+header {
+    text-align: center;
+    padding: 3rem 0 2rem;
+    border-bottom: 1px solid var(--wine-dark);
+    margin-bottom: 2rem;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    color: var(--wine-bright);
+    margin-bottom: 0.5rem;
+}
+
+header p {
+    color: var(--text-secondary);
+}
+
+.back-link {
+    display: inline-block;
+    color: var(--wine-bright);
+    text-decoration: none;
+    margin-bottom: 1.5rem;
+    font-size: 0.9rem;
+}
+
+.back-link:hover {
+    text-decoration: underline;
+}
+
+.team-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 1.5rem;
+    margin: 2rem 0;
+}
+
+.team-card {
+    background: var(--bg-card);
+    border: 1px solid var(--wine-dark);
+    border-radius: 8px;
+    padding: 1.5rem;
+    transition: transform 0.2s, border-color 0.2s;
+}
+
+.team-card:hover {
+    transform: translateY(-3px);
+    border-color: var(--wine-bright);
+}
+
+.team-card a {
+    color: var(--text-primary);
+    text-decoration: none;
+    display: block;
+}
+
+.team-card h3 {
+    color: var(--wine-bright);
+    margin-bottom: 0.5rem;
+}
+
+.team-card p {
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+}
+
+.content {
+    background: var(--bg-card);
+    border: 1px solid var(--wine-dark);
+    border-radius: 8px;
+    padding: 2rem;
+}
+
+.content h1 {
+    color: var(--wine-bright);
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid var(--wine-dark);
+}
+
+.content h2 {
+    color: var(--wine-bright);
+    font-size: 1.4rem;
+    margin: 1.5rem 0 0.75rem;
+}
+
+.content h3 {
+    color: var(--text-primary);
+    font-size: 1.2rem;
+    margin: 1.25rem 0 0.5rem;
+}
+
+.content h4 {
+    color: var(--text-secondary);
+    font-size: 1rem;
+    margin: 1rem 0 0.5rem;
+}
+
+.content p {
+    margin-bottom: 1rem;
+}
+
+.content a {
+    color: var(--wine-bright);
+    text-decoration: none;
+}
+
+.content a:hover {
+    text-decoration: underline;
+}
+
+.content ul, .content ol {
+    margin: 1rem 0 1rem 1.5rem;
+}
+
+.content li {
+    margin-bottom: 0.5rem;
+}
+
+.content blockquote {
+    border-left: 3px solid var(--wine-bright);
+    padding-left: 1rem;
+    margin: 1rem 0;
+    color: var(--text-secondary);
+    font-style: italic;
+}
+
+.content hr {
+    border: none;
+    border-top: 1px solid var(--wine-dark);
+    margin: 2rem 0;
+}
+
+.content code {
+    background: rgba(122, 16, 34, 0.2);
+    padding: 0.2rem 0.4rem;
+    border-radius: 3px;
+    font-family: 'Monaco', 'Consolas', monospace;
+    font-size: 0.9em;
+}
+
+.content pre {
+    background: rgba(0, 0, 0, 0.3);
+    padding: 1rem;
+    border-radius: 5px;
+    overflow-x: auto;
+    margin: 1rem 0;
+}
+
+.content pre code {
+    background: none;
+    padding: 0;
+}
+
+.content strong {
+    color: var(--text-primary);
+}
+
+.content em {
+    color: var(--text-secondary);
+}
+
+footer {
+    text-align: center;
+    padding: 2rem;
+    color: var(--text-secondary);
+    font-size: 0.85rem;
+    border-top: 1px solid var(--wine-dark);
+    margin-top: 2rem;
+}
+
+footer a {
+    color: var(--wine-bright);
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+</style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>CharaROM Team</h1>
+            <p>Meet the people behind the chaos</p>
+        </header>
+        <div class="team-grid">
+            <div class="team-card"><a href="garry-chara.html"><h3>🍫 Chara</h3><p>Lead Developer</p></a></div>
+            <div class="team-card"><a href="eepymeowers.html"><h3>🛌 Nora</h3><p>crDroid Maintainer</p></a></div>
+            <div class="team-card"><a href="bahar-linda.html"><h3>🌷 Bahar / Spring</h3><p>Team Member</p></a></div>
+            <div class="team-card"><a href="bashh.html"><h3>💻 Bashh</h3><p>Team Member</p></a></div>
+            <div class="team-card"><a href="jpb896.html"><h3>🔥 JPB</h3><p>Team Member</p></a></div>
+            <div class="team-card"><a href="unity.html"><h3>🐈 Unity</h3><p>Team Member</p></a></div>
+            <div class="team-card"><a href="clover.html"><h3>🌼 Clover</h3><p>Team Member</p></a></div>
+            <div class="team-card"><a href="extra.html"><h3>🌐 External</h3><p>Contributors</p></a></div>
+        </div>
+        <div class="content">
+            <h1>Team Repository Overview</h1>
+<h2>Quick Links</h2>
+<p>Meet the people behind <strong>CharaROM</strong>:</p>
+<ul>
+<li><a href="garry-chara.md">🍫 <strong>Garry Strait (Chara)</strong></a></li>
+<li><a href="eepymeowers.md">🛌 <strong>Nora / eepymeowers</strong></a></li>
+<li><a href="bahar-linda.md">🌷 <strong>Bahar / Spring</strong></a></li>
+<li><a href="bashh.md">💻 <strong>Bashh</strong></a></li>
+<li><a href="jpb896.md">🔥 <strong>JPB</strong></a></li>
+<li><a href="unity.md">🐈 <strong>Unity Pixelheart</strong></a></li>
+<li><a href="clover.md">🌼 <strong>Clover</strong></a></li>
+<li><a href="extra.md">🌐 <strong>External Contributors</strong></a></li>
+</ul>
+<hr />
+<h2>Important note</h2>
+<p>Yes, we included the preferred pronouns of our team members. Why? Because that's <strong>respect</strong>. Plus, it helps reduce potential miscommunication issues.</p>
+<hr />
+<h2>What This Repository Is</h2>
+<p>This repository exists as a central introduction to the people behind <strong>CharaROM</strong>.</p>
+<p>Each markdown file represents a team member, their background, and the projects they work on—both within CharaROM and beyond it.</p>
+<p>Think of it as a mix between:</p>
+<ul>
+<li>a team roster  </li>
+<li>a portfolio collection  </li>
+<li>and a bit of organized chaos  </li>
+</ul>
+<hr />
+<h2>What You’ll Find Here</h2>
+<ul>
+<li>Individual developer profiles (like <a href="garry-chara.md">this one</a>)  </li>
+<li>Personal projects and contributions  </li>
+<li>Overlapping work across different parts of the ecosystem  </li>
+<li>The occasional “wait, they built <em>that</em> too?” moment  </li>
+</ul>
+<p>This isn’t meant to be overly corporate or sanitized.</p>
+<p>It’s meant to reflect the actual people behind the project—skills, quirks, and all.</p>
+<hr />
+<h2>Team Philosophy</h2>
+<p>CharaROM isn’t built by a faceless group.</p>
+<p>It’s built by individuals who:</p>
+<ul>
+<li>experiment freely  </li>
+<li>learn by doing (and breaking things)  </li>
+<li>and aren’t afraid to take unconventional approaches  </li>
+</ul>
+<p>That same philosophy carries into this repository.</p>
+<hr />
+<h2>Licensing</h2>
+<p>All markdown files in this repository are licensed under the <strong>WTFPL (Do What The F*ck You Want To Public License)</strong>.</p>
+<p>In other words:</p>
+<blockquote>
+<p>Do what you want with this content.</p>
+</blockquote>
+<p>No attribution required, no restrictions—just don’t pretend you didn’t know what you were getting into.</p>
+<hr />
+<h2>Final Note</h2>
+<p>If you’re here, you’re probably curious about the people behind the chaos.</p>
+<p>Feel free to explore, learn a bit about us, and maybe get inspired to build something of your own.</p>
+        </div>
+        <footer>
+            <p>CharaROM Team &middot; <a href="https://chararom.xyz">chararom.xyz</a> &middot; <a href="https://blog.chararom.xyz">Blog</a></p>
+        </footer>
+    </div>
+</body>
+</html>
